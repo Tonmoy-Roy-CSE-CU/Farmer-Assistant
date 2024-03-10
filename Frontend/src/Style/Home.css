@@ -1,0 +1,28 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-image: url('../images/rice-flowers-4180212.jpg');
+
+    
+}
+.sent1{
+    font-size: 70px;
+    color: rgb(15, 15, 16);
+}
+.sent2{
+    font-size: 70px;
+    color: rgb(252, 10, 10); 
+}
+
+.wlc{
+    background-color: rgba(175, 196, 153, 0.291);
+}

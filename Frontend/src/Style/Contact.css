@@ -1,0 +1,17 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/agriculture-1846341.jpg'); /* Adjust the path if needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+    color: rgb(199, 1, 249);
+    font-size: 30px;
+}
+  
