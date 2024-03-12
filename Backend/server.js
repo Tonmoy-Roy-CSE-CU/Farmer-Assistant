@@ -1,12 +1,14 @@
 const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");
+const bodyParser = require('body-parser');
 
 const app = express();
 const port = 3000;
 
 app.use(cors());
 app.use(express.json());
+app.use(bodyParser.json());
 
 // Create a MySQL connection
 const db = mysql.createConnection({
@@ -62,6 +64,41 @@ const queryDatabase = (query, params) => {
     });
   });
 };
+
+
+
+const createTableQuery = `
+    CREATE TABLE IF NOT EXISTS users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(255) NOT NULL,
+        email VARCHAR(255) UNIQUE NOT NULL,
+        password VARCHAR(255) NOT NULL
+    )
+`;
+
+db.query(createTableQuery, (err, result) => {
+    if (err) {
+        console.error("Error creating or checking the 'users' table:", err);
+    } else {
+        console.log("Table 'users' created or already exists");
+    }
+});
+
+app.post('/farms', (req, res) => {
+  const { email, username, password } = req.body;
+
+  const insertUserQuery = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
+  
+  db.query(insertUserQuery, [username, email, password], (err, result) => {
+      if (err) {
+          console.error("Error inserting user:", err);
+          res.status(500).send({ message: "Internal server error", error: err.message });
+      } else {
+          res.status(200).send({ message: "ACCOUNT CREATED SUCCESSFULLY" });
+      }
+  });
+});
+
 
 // Start the server
 app.listen(port, () => {
