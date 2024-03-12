@@ -1,36 +1,97 @@
-/* src/CropList.css */
+/* Add these styles to your Services.css file */
 
-.crop-list-container {
-  max-width: 800px;
-  margin: auto;
+.services-container {
+  max-width: 1100px;
+  margin: 20px auto;
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
 }
 
-.filter-container {
+.services-title {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+.services-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-th,
-td {
-  border: 1px solid #ddd;
+.services-label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  color: #34495e;
+}
+
+.services-input {
   padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.services-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.services-button {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.services-button:hover {
+  background-color: #27ae60;
+}
+
+.services-error-message {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.services-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.services-th, .services-td {
+  border: 1px solid #ddd;
+  padding: 10px;
   text-align: left;
 }
 
-th {
-  background-color: #f2f2f2;
+.services-th {
+  background-color: #3498db;
+  color: #fff;
 }
 
-/* Styles for images */
-td img {
-  max-width: 100px; /* Adjust the maximum width of the image */
-  max-height: 100px; /* Adjust the maximum height of the image */
-  display: block; /* Ensures images are displayed as blocks */
-  margin: auto; /* Centers the images within their cells */
+.services-img {
+  /*max-width: 100%;*/
+  max-width: 250px; /* Adjust the size as needed */
+  max-height: 230px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.services-img:hover {
+  transform: scale(1.1);
 }
