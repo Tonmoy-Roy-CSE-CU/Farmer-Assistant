@@ -1,14 +1,17 @@
 // Signup.jsx
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import axios from 'axios';
 import '../Style/Signup.css';
+import locationData from './LocationData'; // Import location data
 
 const Signup = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [location, setLocation] = useState("");
   const [signupStatus, setSignupStatus] = useState('');
 
   const handleSignup = async (e) => {
@@ -20,6 +23,7 @@ const Signup = () => {
         username,
         email,
         password,
+        location: setLocation,
       });
 
       console.log(response.data); // Log the server response
@@ -38,59 +42,78 @@ const Signup = () => {
   };
 
   return (
-    <div className="signup">
-      <div className="class1">
-        <form onSubmit={handleSignup}>
-          <div className="class2">
-            <label htmlFor="username" className="cls">
+    <div className="signup-container">
+      <div className="signup-form-container">
+        <form onSubmit={handleSignup} className="signup-form">
+          <div className="form-group">
+            <label htmlFor="username" className="form-label">
               Username
             </label>
             <input
               type="text"
               name="username"
               placeholder="Enter Username"
-              className="cls bx"
+              className="form-input"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
           </div>
-          <div className="class3">
-            <label htmlFor="email" className="cls">
+          <div className="form-group">
+            <label htmlFor="email" className="form-label">
               Email
             </label>
             <input
               type="email"
               name="email"
               placeholder="Enter Email"
-              className="cls bx"
+              className="form-input"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="class4">
-            <label htmlFor="password" className="cls">
+          <div className="form-group">
+            <label htmlFor="password" className="form-label">
               Password
             </label>
             <input
               type="password"
               name="password"
               placeholder="Enter Password"
-              className="cls bx"
+              className="form-input"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <div className="class5">
-            {/* Link to the home location */}
-            <Link to="/" className="homeIcon">
+          <div className="form-group">
+            <label htmlFor="location" className="form-label">
+              Location
+            </label>
+            <select
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+              className="form-input"
+            >
+              <option value="">Select Location</option>
+            {locationData.map(([id, name]) => (
+              <option key={id} value={id}>
+                {name}
+              </option>
+              ))}
+            </select>
+          </div>
+          <div className="form-group footSignhome">
+            <Link to="/" className="home-icon">
               <HomeIcon />
             </Link>
             <button type="submit" className="signup-button">
               Sign Up
             </button>
-            {/* Display confirmation or error message */}
-            {signupStatus && <p className={signupStatus.includes('error') ? 'error-message' : 'confirmation-message'}>{signupStatus}</p>}
           </div>
+          {signupStatus && (
+            <p className={signupStatus.includes('error') ? 'error-message' : 'confirmation-message'}>
+              {signupStatus}
+            </p>
+          )}
         </form>
       </div>
     </div>
