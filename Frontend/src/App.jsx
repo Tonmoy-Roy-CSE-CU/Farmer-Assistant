@@ -9,6 +9,7 @@ import Footer from './Component/Footer';
 import Services from './Component/Services';
 import Blog from './Component/Blog';
 import Signup from './Component/Signup';
+import Weather from './Component/Weather';
 
 function App() {
   // Use the useLocation hook to get the current location
@@ -32,6 +33,7 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/signup' element={<Signup />} />
+        <Route path='/menu/weather' element={<Weather/>}/>
       </Routes>
       {renderFooter}
     </>

@@ -4,23 +4,26 @@ import { useState } from "react";
 import axios from "axios";
 import "../Style/Services.css";
 import cropsData from "./CropsData"; // Adjust the path as needed
+import locationData from "./LocationData"; // Import location data
+import monthData from "./MonthData";
+import soilData from "./SoilData";
 
 const Services = () => {
   const [data, setData] = useState([]);
   const [month, setMonth] = useState("");
   const [soil, setSoil] = useState("");
-  const [location, setLocation] = useState("");
+  const [locationName, setLocationName] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const fetchData = async () => {
     try {
-      if (!month || !soil || !location) {
+      if (!month || !soil || !locationName) {
         setErrorMessage("Please provide correct data");
         return;
       }
 
       const response = await axios.get("http://localhost:3000/crops", {
-        params: { month, soil, location },
+        params: { month, soil, location: locationName },
       });
 
       const serverData = response.data;
@@ -34,7 +37,9 @@ const Services = () => {
       });
 
       setData(enrichedData);
-      setErrorMessage(enrichedData.length ? "Suggested Crops" : "No crops found");
+      setErrorMessage(
+        enrichedData.length ? "Suggested Crops" : "No crops found"
+      );
     } catch (error) {
       console.error("Error fetching data:", error);
       setErrorMessage("Error fetching data");
@@ -51,32 +56,52 @@ const Services = () => {
       <div className="services-filters">
         <label className="services-label">
           Month:
-          <input
-            type="text"
+          <select
             value={month}
             onChange={(e) => setMonth(e.target.value)}
-            className="services-input"
-          />
+            className="services-label">
+            <option value="">Select Month</option>
+            {monthData.map(([id, name]) => (
+              <option key={id} value={name}>
+                {name}
+              </option>
+            ))}
+          </select>
         </label>
         <label className="services-label">
           Soil:
-          <input
-            type="text"
+          <select
             value={soil}
             onChange={(e) => setSoil(e.target.value)}
             className="services-input"
-          />
+          >
+            <option value="">Select Soil</option>
+            {soilData.map(([id, name]) => (
+              <option key={id} value={name}>
+                {name}
+              </option>
+            ))}
+          </select>
         </label>
         <label className="services-label">
           Location:
-          <input
-            type="text"
-            value={location}
-            onChange={(e) => setLocation(e.target.value)}
+          <select
+            value={locationName}
+            onChange={(e) => setLocationName(e.target.value)}
             className="services-input"
-          />
+          >
+            <option value="">Select Location</option>
+            {locationData.map(([id, name]) => (
+              <option key={id} value={name}>
+                {name}
+              </option>
+            ))}
+          </select>
         </label>
-        <button onClick={handlePredictionButtonClick} className="services-button">
+        <button
+          onClick={handlePredictionButtonClick}
+          className="services-button"
+        >
           Predict
         </button>
       </div>

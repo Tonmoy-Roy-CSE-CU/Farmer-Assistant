@@ -3,7 +3,6 @@ import logo from "../images/farmer logo.png";
 import "../Style/Navbar.css";
 
 const NavigationBar = () => {
-
   return (
     <nav className="navbar">
       <div className="nav logo">
@@ -13,9 +12,17 @@ const NavigationBar = () => {
         <Link to="/" className="lst">
           Home
         </Link>
-        <Link to="/menu" className="lst">
-          Menu
-        </Link>
+        <div className="dropdown">
+          <Link to="/menu" className="lst">
+            Menu
+          </Link>
+          <div className="dropdown-content">
+            <Link to="/menu/weather">Weather</Link>
+            <Link to="/menu/crops">Crops</Link>
+            <Link to="/menu/soil">Soil</Link>
+            {/* Add more sub-links as needed */}
+          </div>
+        </div>
         <Link to="/services" className="lst">
           Services
         </Link>
@@ -31,7 +38,6 @@ const NavigationBar = () => {
         <Link to="/signup" className="SignupBtn">
           Sign up
         </Link>
-        
       </div>
     </nav>
   );
