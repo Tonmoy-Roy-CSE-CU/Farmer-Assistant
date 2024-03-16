@@ -4,7 +4,7 @@ const cors = require("cors");
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3000;
+const port = 3008;
 
 app.use(cors());
 app.use(express.json());
@@ -29,22 +29,20 @@ db.connect((err) => {
 
 // Define the endpoint to fetch crops based on criteria
 app.get("/crops", async (req, res) => {
-  const { month, soil, location } = req.query;
+  const { month, soil} = req.query;
 
   try {
     const query = `
-      SELECT c.crop_id, c.crop_name
-      FROM month_crops mc
-      JOIN soil_crops sc ON mc.crop_id = sc.crop_id
-      JOIN location_crops lc ON sc.crop_id = lc.crop_id
-      JOIN month m ON mc.month_id = m.month_id
-      JOIN soil s ON sc.soil_id = s.soil_id
-      JOIN location l ON lc.location_id = l.location_id
-      JOIN crops c ON mc.crop_id = c.crop_id
-      WHERE m.month_name = ? AND s.soil_name = ? AND l.location_name = ?
+    SELECT c.crop_id, c.crop_name 
+    FROM month_crops mc 
+    JOIN crops c ON mc.crop_id = c.crop_id 
+    JOIN soil_crops sc ON c.crop_id = sc.crop_id 
+    JOIN soil s ON sc.soil_id = s.soil_id 
+    JOIN month m ON mc.month_id = m.month_id 
+    WHERE m.month_name = ? AND s.soil_name = ?;
     `;
 
-    const results = await queryDatabase(query, [month, soil, location]);
+    const results = await queryDatabase(query, [month, soil]);
     res.json(results);
   } catch (error) {
     console.error("Error fetching crops:", error);

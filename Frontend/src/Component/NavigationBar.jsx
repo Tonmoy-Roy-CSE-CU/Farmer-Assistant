@@ -23,9 +23,23 @@ const NavigationBar = () => {
             {/* Add more sub-links as needed */}
           </div>
         </div>
+        <div className="dropdown">
         <Link to="/services" className="lst">
           Services
         </Link>
+          <div className="dropdown-content">
+            <Link to="/services/location-crops">Location Crops</Link>
+            <Link to="/services/month-crops">Month Crops</Link>
+            <Link to="/services/soil-crops">Soil Crops</Link>
+            <Link to="/services/location-month-crops">Location Month Crops</Link>
+            <Link to="/services/location-soil-crops">Location Soil Crops</Link>
+            <Link to="/services/month-soil-crops">Month Soil Crops</Link>
+            <Link to="/services/location-month-soil-crops">Location Month Soil Crops</Link>
+
+            {/* Add more sub-links as needed */}
+          </div>
+        </div>
+        
         <Link to="/blog" className="lst">
           Blog
         </Link>

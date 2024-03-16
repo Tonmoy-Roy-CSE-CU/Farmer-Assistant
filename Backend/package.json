@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start-all": "concurrently \"node LocationSoilCrops.js\" \"node LocationMonthCrops.js\" \"node MonthSoilCrops.js\" \"node server.js\" \"node MonthCrops.js\" \"node SoilCrops.js\" \"node LocationCrops.js\"",
     "dev": "nodemon server.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
+    "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "express": "^4.18.3",
     "mysql": "^2.18.1",
