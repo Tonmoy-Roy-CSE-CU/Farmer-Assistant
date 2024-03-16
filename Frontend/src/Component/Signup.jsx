@@ -1,5 +1,3 @@
-// Signup.jsx
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
@@ -11,19 +9,26 @@ const Signup = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [location, setLocation] = useState("");
+  const [locationId, setLocationId] = useState(""); // Initialize locationId state
   const [signupStatus, setSignupStatus] = useState('');
 
   const handleSignup = async (e) => {
     e.preventDefault();
 
     try {
-      // Make a POST request to the backend server
-      const response = await axios.post('http://localhost:3000/farms', {
+      console.log('Request Payload:', {
         username,
         email,
         password,
-        location: setLocation,
+        locationId // Log locationId
+      });
+
+      // Make a POST request to the backend server
+      const response = await axios.post('http://localhost:3001/farms', {
+        username,
+        email,
+        password,
+        locationId // Send locationId instead of location
       });
 
       console.log(response.data); // Log the server response
@@ -39,6 +44,12 @@ const Signup = () => {
       // Display error message to the user
       setSignupStatus('An error occurred during signup. Please try again.');
     }
+  };
+
+  const handleLocationChange = (e) => {
+    const selectedLocationId = e.target.value;
+    setLocationId(selectedLocationId);
+    console.log('Selected location ID:', selectedLocationId); // Log the selected location ID
   };
 
   return (
@@ -89,15 +100,15 @@ const Signup = () => {
               Location
             </label>
             <select
-              value={location}
-              onChange={(e) => setLocation(e.target.value)}
+              value={locationId}
+              onChange={handleLocationChange} // Update locationId state
               className="form-input"
             >
               <option value="">Select Location</option>
-            {locationData.map(([id, name]) => (
-              <option key={id} value={id}>
-                {name}
-              </option>
+              {locationData.map(([id, name]) => (
+                <option key={id} value={id}>
+                  {name}
+                </option>
               ))}
             </select>
           </div>
