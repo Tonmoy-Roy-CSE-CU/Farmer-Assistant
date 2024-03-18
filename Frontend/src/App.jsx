@@ -4,6 +4,8 @@ import NavigationBar from './Component/NavigationBar';
 import Home from './Component/Home';
 import Contact from './Component/Contact';
 import About from './Component/About';
+import Menu from './Component/Menu';
+import Crops from './Component/Crops';
 import Footer from './Component/Footer';
 import Blog from './Component/Blog';
 import Signup from './Component/Signup';
@@ -17,6 +19,7 @@ import MonthSoilCrops from './Crops Suggestion/MonthSoilCrops';
 import LocationCrops from './Crops Suggestion/LocationCrops';
 import MonthCrops from './Crops Suggestion/MonthCrops';
 import SoilCrops from './Crops Suggestion/SoilCrops';
+
 function App() {
   // Use the useLocation hook to get the current location
   const location = useLocation();
@@ -35,6 +38,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu/crops" element={<Crops />} />
         <Route path='/services/location-month-soil-crops' element={<LocationMonthSoilCrops />} />
         <Route path='/services/location-month-crops' element={<LocationMonthCrops />} />
         <Route path='/services/location-soil-crops' element={<LocationSoilCrops />} />
