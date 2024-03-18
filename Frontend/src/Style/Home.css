@@ -11,43 +11,27 @@
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     
-    animation: slideshow 40s infinite;
+    animation: slideshow 15s infinite;
 }
 
 @keyframes slideshow {
     0% {
         background-image: url('../images/rice-flowers-4180212.jpg'); /* Image 1 */
     }
-    10% {
-        background-image: url('../images/field-5137778.jpg'); /* Image 2 */
-    }
-    20% {
-        background-image: url('../images/pexels-james-wheeler-1542495.jpg'); /* Image 3 */
-    }
-    30% {
-        background-image: url('../images/farmer-1822530.jpg'); /* Image 4 */
-    }
-    40% {
-        background-image: url('../images/wheat-2391348.jpg'); /* Image 5 */
+    25% {
+        
+        background-image: url('../images/sunset-3875895.jpg'); /* Image 4 */
     }
     50% {
-        background-image: url('../images/field-3268388.jpg'); /* Image 5 */
+        background-image: url('../images/pexels-james-wheeler-1542495.jpg'); /* Image 3 */
     }
-    60% {
-        background-image: url('../images/pexels-mantas-hesthaven-545521.jpg'); /* Image 5 */
-    }
-    70% {
-        background-image: url('../images/pexels-pixabay-46164.jpg'); /* Image 5 */
-    }
-    80% {
-        background-image: url('../images/rice-1491868.jpg'); /* Image 5 */
-    }
-    90% {
-        background-image: url('../images/pexels-omer-faruq-khan-10133695.jpg'); /* Image 5 */
+    75% {
+        background-image: url('../images/farmer-1822530.jpg'); /* Image 4 */
     }
     100% {
-        background-image: url('../images/sunset-3875895.jpg'); /* Image 5 */
+        background-image: url('../images/field-5137778.jpg'); /* Image 2 */
     }
+    
 }
 
 
