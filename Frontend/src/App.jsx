@@ -4,7 +4,7 @@ import NavigationBar from './Component/NavigationBar';
 import Home from './Component/Home';
 import Contact from './Component/Contact';
 import About from './Component/About';
-import Menu from './Component/Menu';
+import Soil from './Component/Soil';
 import Crops from './Component/Crops';
 import Footer from './Component/Footer';
 import Blog from './Component/Blog';
@@ -38,8 +38,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/menu" element={<Menu />} />
         <Route path="/menu/crops" element={<Crops />} />
+        <Route path="/menu/soil" element={<Soil />} />
         <Route path='/services/location-month-soil-crops' element={<LocationMonthSoilCrops />} />
         <Route path='/services/location-month-crops' element={<LocationMonthCrops />} />
         <Route path='/services/location-soil-crops' element={<LocationSoilCrops />} />

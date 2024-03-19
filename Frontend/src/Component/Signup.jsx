@@ -42,7 +42,7 @@ const Signup = () => {
     } catch (error) {
       console.error('Error signing up:', error);
       // Display error message to the user
-      setSignupStatus('An error occurred during signup. Please try again.');
+      setSignupStatus('An error occurred while signing up. Please try with another email.');
     }
   };
 
