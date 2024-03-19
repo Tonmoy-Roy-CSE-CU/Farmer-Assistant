@@ -117,7 +117,7 @@ const cropsData = [
     description_en:
       'Water amaranth, also known as "nilkori" in Bangladesh, is a nutritious leafy green vegetable. It is cultivated in various regions of the country, such as Gazipur, Tangail, and Mymensingh. Water amaranth is typically grown during the winter season and is often cultivated in waterlogged areas. It is cultivated in paddy fields and receives adequate irrigation, often using organic fertilizers to enhance its nutritional value and resistance to pests. It is usually sown directly in the waterlogged fields and grown in the approved season with proper seedling transplantation and quantity management. Properly cultivated plots and adequate nutrition are ensured for its robust growth. Water amaranth is displayed in the market, providing essential support to the food industry and playing a significant role in economic preparedness.',
     description_bn:
-      'জল আমড়া, বাংলাদেশে "নীলকোরি" নামেও পরিচিত, একটি পুষ্টিকর শাক-সবুজ সবজি। গাজীপুর, টাঙ্গাইল, ময়মনসিংহের মতো দেশের বিভিন্ন অঞ্চলে এর চাষ হয়। ওয়াটার অ্যামরান্থ সাধারণত শীত মৌসুমে জন্মায় এবং প্রায়ই জলাবদ্ধ এলাকায় চাষ করা হয়। এটি ধান ক্ষেতে চাষ করা হয় এবং পর্যাপ্ত সেচ পায়, প্রায়ই জৈব সার ব্যবহার করে এর পুষ্টির মান এবং কীটপতঙ্গের প্রতিরোধ ক্ষমতা বাড়ায়। এটি সাধারণত জলাবদ্ধ ক্ষেতে সরাসরি বপন করা হয় এবং অনুমোদিত মৌসুমে সঠিক চারা রোপন এবং পরিমাণ ব্যবস্থাপনার মাধ্যমে জন্মানো হয়। সঠিকভাবে চাষ করা প্লট এবং পর্যাপ্ত পুষ্টি এর শক্তিশালী বৃদ্ধির জন্য নিশ্চিত করা হয়। জলের আমড়া বাজারে প্রদর্শিত হয়, যা খাদ্য শিল্পকে অপরিহার্য সহায়তা প্রদান করে এবং অর্থনৈতিক প্রস্তুতিতে গুরুত্বপূর্ণ ভূমিকা পালন করে।',
+      'Water amaranth, বাংলাদেশে "নীলকোরি" নামেও পরিচিত, একটি পুষ্টিকর শাক-সবুজ সবজি। গাজীপুর, টাঙ্গাইল, ময়মনসিংহের মতো দেশের বিভিন্ন অঞ্চলে এর চাষ হয়। ওয়াটার অ্যামরান্থ সাধারণত শীত মৌসুমে জন্মায় এবং প্রায়ই জলাবদ্ধ এলাকায় চাষ করা হয়। এটি ধান ক্ষেতে চাষ করা হয় এবং পর্যাপ্ত সেচ পায়, প্রায়ই জৈব সার ব্যবহার করে এর পুষ্টির মান এবং কীটপতঙ্গের প্রতিরোধ ক্ষমতা বাড়ায়। এটি সাধারণত জলাবদ্ধ ক্ষেতে সরাসরি বপন করা হয় এবং অনুমোদিত মৌসুমে সঠিক চারা রোপন এবং পরিমাণ ব্যবস্থাপনার মাধ্যমে জন্মানো হয়। সঠিকভাবে চাষ করা প্লট এবং পর্যাপ্ত পুষ্টি এর শক্তিশালী বৃদ্ধির জন্য নিশ্চিত করা হয়। জলের আমড়া বাজারে প্রদর্শিত হয়, যা খাদ্য শিল্পকে অপরিহার্য সহায়তা প্রদান করে এবং অর্থনৈতিক প্রস্তুতিতে গুরুত্বপূর্ণ ভূমিকা পালন করে।',
   },
 
   {
@@ -194,7 +194,7 @@ const cropsData = [
     description_en:
       'Chili peppers, known as "lanka" or "mori" in Bengali, are widely cultivated and integral to Bangladeshi cuisine. Grown across various regions including Gazipur, Tangail, and Mymensingh, chilies thrive in warm climates and are typically cultivated year-round. Traditional cultivation methods are employed, with farmers ensuring proper soil preparation, irrigation, and pest management. Varieties such as Birds Eye Chili and Jalapeño are commonly grown. Integrated pest management techniques are utilized to control pests such as aphids and fruit flies. Harvesting usually begins around 60 to 90 days after planting, with chilies being harvested when they reach the desired level of maturity and heat. Chilies are a staple in Bangladeshi cooking, adding heat, flavor, and color to dishes ranging from curries and stir-fries to chutneys and pickles. They are prized for their spicy kick and are also valued for their medicinal properties and nutritional benefits.',
     description_bn:
-      'মরিচ মরিচ, বাংলায় "লঙ্কা" বা "মরি" নামে পরিচিত, ব্যাপকভাবে চাষ করা হয় এবং বাংলাদেশী খাবারের অবিচ্ছেদ্য অংশ। গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহ সহ বিভিন্ন অঞ্চলে জন্মানো মরিচ উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত সারা বছর চাষ করা হয়। কৃষকরা সঠিক মাটি প্রস্তুতি, সেচ এবং কীটপতঙ্গ ব্যবস্থাপনা নিশ্চিত করে ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। বার্ডস আই চিলি এবং জালাপেনোর মতো জাতগুলি সাধারণত জন্মায়। এফিড এবং ফল মাছির মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 60 থেকে 90 দিন পরে ফসল কাটা শুরু হয়, যখন তারা পরিপক্কতা এবং তাপের পছন্দসই স্তরে পৌঁছায় তখন মরিচ কাটা হয়। মরিচ বাংলাদেশী রান্নার একটি প্রধান উপাদান, তরকারি এবং ভাজা থেকে চাটনি এবং আচার পর্যন্ত খাবারে তাপ, স্বাদ এবং রঙ যোগ করে। তারা তাদের মশলাদার লাথির জন্য পুরস্কৃত এবং তাদের ঔষধি বৈশিষ্ট্য এবং পুষ্টির সুবিধার জন্যও মূল্যবান।',
+      'Chili , বাংলায় "লঙ্কা" বা "মরিচ" নামে পরিচিত, ব্যাপকভাবে চাষ করা হয় এবং বাংলাদেশী খাবারের অবিচ্ছেদ্য অংশ। গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহ সহ বিভিন্ন অঞ্চলে জন্মানো মরিচ উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত সারা বছর চাষ করা হয়। কৃষকরা সঠিক মাটি প্রস্তুতি, সেচ এবং কীটপতঙ্গ ব্যবস্থাপনা নিশ্চিত করে ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। বার্ডস আই চিলি এবং জালাপেনোর মতো জাতগুলি সাধারণত জন্মায়। এফিড এবং ফল মাছির মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 60 থেকে 90 দিন পরে ফসল কাটা শুরু হয়, যখন তারা পরিপক্কতা এবং তাপের পছন্দসই স্তরে পৌঁছায় তখন মরিচ কাটা হয়। মরিচ বাংলাদেশী রান্নার একটি প্রধান উপাদান, তরকারি এবং ভাজা থেকে চাটনি এবং আচার পর্যন্ত খাবারে তাপ, স্বাদ এবং রঙ যোগ করে। তারা তাদের মশলাদার লাথির জন্য পুরস্কৃত এবং তাদের ঔষধি বৈশিষ্ট্য এবং পুষ্টির সুবিধার জন্যও মূল্যবান।',
   },
 
   {
@@ -215,7 +215,7 @@ const cropsData = [
     crop_image: "/src/images/garlic-5207282.jpg",
     description_en:
       'Garlic, known as "rasun" in Bengali, is a widely used culinary ingredient and medicinal herb cultivated throughout Bangladesh. It is grown in various regions, including Gazipur, Tangail, and Mymensingh. Garlic thrives in well-drained soils and is typically cultivated during the winter months. Traditional farming practices are employed, including proper soil preparation and irrigation. Varieties such as Golarashi and Desi are commonly grown. Integrated pest management techniques are used to control pests such as aphids and nematodes. Harvesting usually begins around 90 to 150 days after planting, with garlic bulbs being harvested when the leaves turn yellow and dry. Garlic is a key ingredient in numerous Bangladeshi dishes, imparting a distinctive flavor and aroma. It is also valued for its medicinal properties, known for its antioxidant and antimicrobial properties, and is often used to promote overall health and well-being.',
-    description_bn: "",
+    description_bn: 'রসুন, বাংলায় "রসুন" নামে পরিচিত, একটি বহুল ব্যবহৃত রন্ধন উপাদান এবং ঔষধি ভেষজ যা সারা বাংলাদেশে চাষ করা হয়। এটি গাজীপুর, টাঙ্গাইল, ময়মনসিংহ সহ বিভিন্ন অঞ্চলে জন্মে। রসুন ভাল নিষ্কাশনযুক্ত মাটিতে বৃদ্ধি পায় এবং সাধারণত শীতের মাসগুলিতে চাষ করা হয়। মাটির সঠিক প্রস্তুতি এবং সেচ সহ ঐতিহ্যগত কৃষি পদ্ধতি ব্যবহার করা হয়। গোলরাশি এবং দেশি জাতগুলি সাধারণত জন্মায়। এফিড এবং নেমাটোডের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 90 থেকে 150 দিন পরে ফসল কাটা শুরু হয়, যখন পাতা হলুদ এবং শুকিয়ে যায় তখন রসুনের বাল্ব কাটা হয়। রসুন হল অসংখ্য বাংলাদেশী খাবারের একটি মূল উপাদান, যা একটি স্বতন্ত্র স্বাদ এবং সুবাস প্রদান করে। এটি এর ঔষধি বৈশিষ্ট্যের জন্যও মূল্যবান, এটি এর অ্যান্টিঅক্সিডেন্ট এবং অ্যান্টিমাইক্রোবিয়াল বৈশিষ্ট্যের জন্য পরিচিত, এবং প্রায়শই সামগ্রিক স্বাস্থ্য এবং মঙ্গলকে উন্নীত করতে ব্যবহৃত হয়।',
   },
 
   {
@@ -268,7 +268,7 @@ const cropsData = [
     crop_image: "/src/images/Drumstick.jpg",
     description_en:
       'Drumstick, known as "shojne" or "shajna" in Bengali, is a long, slender vegetable with edible pods and seeds. It is commonly cultivated in Bangladesh, particularly in regions like Gazipur, Tangail, and Mymensingh. Drumsticks thrive in warm climates and are typically grown during the rainy and summer seasons. Traditional cultivation methods are employed by farmers, including proper soil preparation and irrigation. Varieties such as PKM1 and PKM2 are commonly grown. Integrated pest management techniques are utilized to control pests such as aphids and caterpillars. Harvesting usually begins around 6 to 8 months after planting, with drumsticks being harvested when they are tender and immature. Drumsticks are used in various culinary dishes, including curries, soups, and stews, adding a unique flavor and texture. They are valued for their nutritional content, particularly their high vitamin C and iron content, contributing to the health benefits of Bangladeshi cuisine.',
-    description_bn: "",
+    description_bn: 'ড্রামস্টিক, বাংলায় "শোজনে" বা "শজনা" নামে পরিচিত, একটি লম্বা, পাতলা সবজি যার মধ্যে ভোজ্য শুঁটি এবং বীজ রয়েছে। এটি সাধারণত বাংলাদেশে চাষ করা হয়, বিশেষ করে গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহের মতো অঞ্চলে। ড্রামস্টিকগুলি উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত বর্ষা ও গ্রীষ্ম ঋতুতে জন্মায়। সঠিক মাটি প্রস্তুতি এবং সেচ সহ কৃষকরা ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করেন। PKM1 এবং PKM2 এর মতো জাতগুলি সাধারণত জন্মায়। এফিড এবং শুঁয়োপোকার মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 6 থেকে 8 মাস পরে ফসল কাটা শুরু হয়, ড্রামস্টিকগুলি যখন কোমল এবং অপরিণত হয় তখন কাটা হয়। তরকারি, স্যুপ এবং স্টু সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ড্রামস্টিক ব্যবহার করা হয়, যা একটি অনন্য স্বাদ এবং গঠন যোগ করে। তারা তাদের পুষ্টি উপাদানের জন্য মূল্যবান, বিশেষ করে তাদের উচ্চ ভিটামিন সি এবং আয়রন সামগ্রী, যা বাংলাদেশী খাবারের স্বাস্থ্য সুবিধার জন্য অবদান রাখে।',
   },
 
   {
@@ -276,9 +276,9 @@ const cropsData = [
     crop_name_en: "Bottle gourd",
     crop_name_bn: "লাউ",
     crop_image: "/src/images/Bottle gourd.jpeg",
-    description_en: "",
-    description_bn:
-      'ড্রামস্টিক, বাংলায় "শোজনে" বা "শজনা" নামে পরিচিত, একটি লম্বা, পাতলা সবজি যার মধ্যে ভোজ্য শুঁটি এবং বীজ রয়েছে। এটি সাধারণত বাংলাদেশে চাষ করা হয়, বিশেষ করে গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহের মতো অঞ্চলে। ড্রামস্টিকগুলি উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত বর্ষা ও গ্রীষ্ম ঋতুতে জন্মায়। সঠিক মাটি প্রস্তুতি এবং সেচ সহ কৃষকরা ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করেন। PKM1 এবং PKM2 এর মতো জাতগুলি সাধারণত জন্মায়। এফিড এবং শুঁয়োপোকার মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 6 থেকে 8 মাস পরে ফসল কাটা শুরু হয়, ড্রামস্টিকগুলি যখন কোমল এবং অপরিণত হয় তখন কাটা হয়। তরকারি, স্যুপ এবং স্টু সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ড্রামস্টিক ব্যবহার করা হয়, যা একটি অনন্য স্বাদ এবং গঠন যোগ করে। তারা তাদের পুষ্টি উপাদানের জন্য মূল্যবান, বিশেষ করে তাদের উচ্চ ভিটামিন সি এবং আয়রন সামগ্রী, যা বাংলাদেশী খাবারের স্বাস্থ্য সুবিধার জন্য অবদান রাখে।',
+    description_en: "Bottle gourd, (Lagenaria siceraria), running or climbing vine of the gourd family (Cucurbitaceae), native to tropical Africa but cultivated in warm climates around the world for its ornamental and useful hard-shelled fruits. The young fruits are edible and are usually cooked as a vegetable. The mature gourds are made into water bottles, dippers, spoons, pipes, and many other utensils and containers; they can also be fashioned into birdhouses, fancy ornaments, lamps, and musical instruments. Additionally, the vine’s showy white flowers and dense foliage make it a popular screen and ornamental plant.",
+    description_bn: "বোতল করলা, (লগেনারিয়া সিসেরারিয়া), লাউ পরিবারের দৌড়ে বা আরোহণকারী লতা (Cucurbitaceae), গ্রীষ্মমন্ডলীয় আফ্রিকার স্থানীয় কিন্তু এর শোভাময় এবং দরকারী শক্ত খোসাযুক্ত ফলের জন্য সারা বিশ্বের উষ্ণ জলবায়ুতে চাষ করা হয়। কচি ফলগুলি ভোজ্য এবং সাধারণত সবজি হিসাবে রান্না করা হয়। পরিপক্ক লাউকে পানির বোতল, ডিপার, চামচ, পাইপ এবং অন্যান্য অনেক পাত্র ও পাত্রে তৈরি করা হয়; এগুলিকে পাখির ঘর, অভিনব অলঙ্কার, বাতি এবং বাদ্যযন্ত্রের মধ্যেও তৈরি করা যেতে পারে। উপরন্তু, দ্রাক্ষালতার সাদা ফুল এবং ঘন পাতা এটি একটি জনপ্রিয় পর্দা এবং শোভাময় উদ্ভিদ করে তোলে। বোতল করলার লতাগুলি লোমযুক্ত কান্ড, লম্বা কাঁটাযুক্ত টেন্ড্রিল এবং একটি কস্তুরিত গন্ধ সহ দ্রুত বর্ধনশীল বার্ষিক। বোতল করলার অনেক রূপ নির্দিষ্ট উদ্দেশ্যে চাষ করা হয়েছে এবং লতা, পাতা এবং ফুলের আকারের পাশাপাশি ফলের আকার এবং আকার ব্যাপকভাবে পরিবর্তিত হয়। ফর্মগুলির নামকরণ করা হয়েছে ফলের আকৃতির জন্য - যেমন, ক্লাব, ডিপার, ডলফিন, কেটলি এবং ট্রফ। কিছু চাষ করা জাতের ফল 1 মিটারের বেশি (প্রায় 3 ফুট) লম্বা হতে পারে। বীজ থেকে গাছপালা সহজে জন্মানো যেতে পারে তবে পরিপক্ক হওয়ার জন্য দীর্ঘ গরম ক্রমবর্ধমান ঋতু প্রয়োজন।"
+    ,
   },
 
   {
@@ -311,7 +311,7 @@ const cropsData = [
     description_en:
       'Mint leaves, known as "pudina pata" in Bengali, are aromatic herbs commonly cultivated in Bangladesh. They thrive in various regions, including Gazipur, Tangail, and Mymensingh, and are typically grown in warm and sunny conditions. Traditional cultivation methods are employed, with farmers ensuring proper soil preparation and irrigation. Varieties such as Peppermint and Spearmint are commonly cultivated. Integrated pest management techniques are utilized to control pests such as aphids and spider mites. Harvesting usually begins when the mint plants reach maturity, with leaves being harvested as needed. Mint leaves are used in various culinary dishes, including chutneys, salads, drinks, and as a garnish, adding a refreshing flavor and aroma to Bangladeshi cuisine. Additionally, mint leaves are valued for their medicinal properties and are often used in traditional remedies for digestive issues and respiratory problems.',
     description_bn:
-      'পুদিনা পাতা, বাংলায় "পুদিনা পাটা" নামে পরিচিত, বাংলাদেশে সাধারণত চাষ করা হয় সুগন্ধযুক্ত ভেষজ। এগুলি গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহ সহ বিভিন্ন অঞ্চলে বৃদ্ধি পায় এবং সাধারণত উষ্ণ এবং রৌদ্রোজ্জ্বল পরিস্থিতিতে জন্মে। কৃষকরা সঠিক মাটি প্রস্তুতি এবং সেচ নিশ্চিত করে ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। পেপারমিন্ট এবং স্পিয়ারমিন্টের মতো জাতগুলি সাধারণত চাষ করা হয়। এফিড এবং মাকড়সার মাইটের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। পুদিনা গাছ পরিপক্ক হলে সাধারণত ফসল কাটা শুরু হয়, প্রয়োজন অনুযায়ী পাতা কাটা হয়। পুদিনা পাতা বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ব্যবহার করা হয়, যার মধ্যে চাটনি, সালাদ, পানীয় এবং গার্নিশ হিসেবে ব্যবহার করা হয়, যা বাংলাদেশী খাবারে একটি সতেজ স্বাদ এবং সুগন্ধ যোগ করে। উপরন্তু, পুদিনা পাতা তাদের ঔষধি গুণাবলীর জন্য মূল্যবান এবং প্রায়ই হজম সমস্যা এবং শ্বাসকষ্টের সমস্যাগুলির জন্য ঐতিহ্যগত প্রতিকারে ব্যবহৃত হয়।',
+      'Mint leaves, বাংলায় "পুদিনা পাতা" নামে পরিচিত, বাংলাদেশে সাধারণত চাষ করা হয় সুগন্ধযুক্ত ভেষজ। এগুলি গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহ সহ বিভিন্ন অঞ্চলে বৃদ্ধি পায় এবং সাধারণত উষ্ণ এবং রৌদ্রোজ্জ্বল পরিস্থিতিতে জন্মে। কৃষকরা সঠিক মাটি প্রস্তুতি এবং সেচ নিশ্চিত করে ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। পেপারমিন্ট এবং স্পিয়ারমিন্টের মতো জাতগুলি সাধারণত চাষ করা হয়। এফিড এবং মাকড়সার মাইটের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। পুদিনা গাছ পরিপক্ক হলে সাধারণত ফসল কাটা শুরু হয়, প্রয়োজন অনুযায়ী পাতা কাটা হয়। পুদিনা পাতা বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ব্যবহার করা হয়, যার মধ্যে চাটনি, সালাদ, পানীয় এবং গার্নিশ হিসেবে ব্যবহার করা হয়, যা বাংলাদেশী খাবারে একটি সতেজ স্বাদ এবং সুগন্ধ যোগ করে। উপরন্তু, পুদিনা পাতা তাদের ঔষধি গুণাবলীর জন্য মূল্যবান এবং প্রায়ই হজম সমস্যা এবং শ্বাসকষ্টের সমস্যাগুলির জন্য ঐতিহ্যগত প্রতিকারে ব্যবহৃত হয়।',
   },
 
   {
@@ -333,7 +333,7 @@ const cropsData = [
     description_en:
       'Ridge gourd, known as "jhinge" in Bengali, is a popular and versatile vegetable cultivated throughout Bangladesh, including regions like Gazipur, Tangail, and Mymensingh. Ridge gourds thrive in warm climates and are typically grown during the rainy and summer seasons. Traditional farming methods are employed, including proper soil preparation and irrigation. Varieties such as Arka Nishant and Arka Sujat are commonly cultivated. Integrated pest management techniques are utilized to control pests such as fruit flies and aphids. Harvesting usually begins around 50 to 60 days after planting, with ridge gourds being harvested when they are young and tender. Ridge gourds are used in various culinary dishes, including curries, stir-fries, and soups, adding a mild and slightly sweet flavor. They are valued for their high nutritional content, including vitamins, minerals, and dietary fiber, contributing to the health benefits of Bangladeshi cuisine.',
     description_bn:
-      'ঢেঁড়স, বাংলায় "ঝিঙ্গে" নামে পরিচিত, গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহের মতো অঞ্চল সহ সারা বাংলাদেশে চাষ করা একটি জনপ্রিয় এবং বহুমুখী সবজি। ঢেঁড়স উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত বর্ষা ও গ্রীষ্ম ঋতুতে জন্মায়। মাটির সঠিক প্রস্তুতি এবং সেচ সহ ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। আরকা নিশান্ত এবং আরকা সুজাতের মতো জাতগুলি সাধারণত চাষ করা হয়। ফলের মাছি এবং এফিডের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 50 থেকে 60 দিন পরে ফসল কাটা শুরু হয়, ঢেঁড়স যখন ছোট এবং কোমল হয় তখন কাটা হয়। তরকারি, ভাজা এবং স্যুপ সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ঢেঁড়স ব্যবহার করা হয়, যা একটি হালকা এবং সামান্য মিষ্টি স্বাদ যোগ করে। তারা ভিটামিন, খনিজ এবং খাদ্যতালিকাগত ফাইবার সহ তাদের উচ্চ পুষ্টি উপাদানের জন্য মূল্যবান, যা বাংলাদেশী খাবারের স্বাস্থ্য সুবিধার জন্য অবদান রাখে।',
+      'Ridge gourd, বাংলায় "ঝিঙ্গে" নামে পরিচিত, গাজীপুর, টাঙ্গাইল এবং ময়মনসিংহের মতো অঞ্চল সহ সারা বাংলাদেশে চাষ করা একটি জনপ্রিয় এবং বহুমুখী সবজি। ঢেঁড়স উষ্ণ জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত বর্ষা ও গ্রীষ্ম ঋতুতে জন্মায়। মাটির সঠিক প্রস্তুতি এবং সেচ সহ ঐতিহ্যগত চাষ পদ্ধতি ব্যবহার করা হয়। আরকা নিশান্ত এবং আরকা সুজাতের মতো জাতগুলি সাধারণত চাষ করা হয়। ফলের মাছি এবং এফিডের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। রোপণের প্রায় 50 থেকে 60 দিন পরে ফসল কাটা শুরু হয়, ঢেঁড়স যখন ছোট এবং কোমল হয় তখন কাটা হয়। তরকারি, ভাজা এবং স্যুপ সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ঢেঁড়স ব্যবহার করা হয়, যা একটি হালকা এবং সামান্য মিষ্টি স্বাদ যোগ করে। তারা ভিটামিন, খনিজ এবং খাদ্যতালিকাগত ফাইবার সহ তাদের উচ্চ পুষ্টি উপাদানের জন্য মূল্যবান, যা বাংলাদেশী খাবারের স্বাস্থ্য সুবিধার জন্য অবদান রাখে।',
   },
 
   {
@@ -344,7 +344,7 @@ const cropsData = [
     description_en:
       'Coriander leaves, known as "dhaniya pata" in Bengali, are aromatic herbs widely cultivated in Bangladesh. They are grown in various regions, including Gazipur, Tangail, and Mymensingh. Coriander plants thrive in warm climates and are typically grown throughout the year. Traditional farming practices are employed, including proper soil preparation and irrigation. Integrated pest management techniques are utilized to control pests such as aphids and spider mites. Harvesting usually begins when the coriander plants reach maturity, with leaves being harvested as needed. Coriander leaves are used extensively in Bangladeshi cuisine as a garnish, in salads, chutneys, curries, and other dishes. They add a fresh and citrusy flavor to dishes and are valued for their culinary versatility and health benefits.',
     description_bn:
-      'ধনিয়া পাতা, যা বাংলায় "ধনিয়া পাতা" নামে পরিচিত, বাংলাদেশে ব্যাপকভাবে চাষ করা সুগন্ধযুক্ত ভেষজ। গাজীপুর, টাঙ্গাইল, ময়মনসিংহ সহ বিভিন্ন অঞ্চলে এগুলি জন্মে। ধনিয়া গাছগুলি উষ্ণ জলবায়ুতে সমৃদ্ধ হয় এবং সাধারণত সারা বছর ধরে জন্মায়। মাটির সঠিক প্রস্তুতি এবং সেচ সহ ঐতিহ্যগত কৃষি পদ্ধতি ব্যবহার করা হয়। এফিড এবং মাকড়সার মাইটের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। সাধারণত ধনে গাছ পরিপক্ক হলে ফসল কাটা শুরু হয় এবং প্রয়োজনমতো পাতা কাটা হয়। ধনে পাতা বাংলাদেশের রান্নায় গার্নিশ হিসেবে, সালাদ, চাটনি, তরকারি এবং অন্যান্য খাবারে ব্যাপকভাবে ব্যবহৃত হয়। তারা খাবারে একটি তাজা এবং সাইট্রাস স্বাদ যোগ করে এবং তাদের রন্ধনসম্পর্কীয় বহুমুখিতা এবং স্বাস্থ্য সুবিধার জন্য মূল্যবান।',
+      'Coriander leaves, যা বাংলায় "ধনিয়া পাতা" নামে পরিচিত, বাংলাদেশে ব্যাপকভাবে চাষ করা সুগন্ধযুক্ত ভেষজ। গাজীপুর, টাঙ্গাইল, ময়মনসিংহ সহ বিভিন্ন অঞ্চলে এগুলি জন্মে। ধনিয়া গাছগুলি উষ্ণ জলবায়ুতে সমৃদ্ধ হয় এবং সাধারণত সারা বছর ধরে জন্মায়। মাটির সঠিক প্রস্তুতি এবং সেচ সহ ঐতিহ্যগত কৃষি পদ্ধতি ব্যবহার করা হয়। এফিড এবং মাকড়সার মাইটের মতো কীটপতঙ্গ নিয়ন্ত্রণে সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা কৌশল ব্যবহার করা হয়। সাধারণত ধনে গাছ পরিপক্ক হলে ফসল কাটা শুরু হয় এবং প্রয়োজনমতো পাতা কাটা হয়। ধনে পাতা বাংলাদেশের রান্নায় গার্নিশ হিসেবে, সালাদ, চাটনি, তরকারি এবং অন্যান্য খাবারে ব্যাপকভাবে ব্যবহৃত হয়। তারা খাবারে একটি তাজা এবং সাইট্রাস স্বাদ যোগ করে এবং তাদের রন্ধনসম্পর্কীয় বহুমুখিতা এবং স্বাস্থ্য সুবিধার জন্য মূল্যবান।',
   },
 
   {
@@ -520,7 +520,7 @@ const cropsData = [
     description_en:
       'Coconut, known as "narkel" or "daab" in Bengali, is a versatile fruit cultivated in Bangladesh. It is grown in various regions across the country, including the coastal areas and the Sundarbans region. Coconut palms thrive in warm and humid climates and are typically harvested year-round. Traditional farming methods, including proper soil preparation, irrigation, and pest management, are employed to ensure a successful yield of coconuts. Harvesting usually begins when the coconuts are mature, with the fruits being harvested from the top of the palm trees. Coconuts are highly valued for their multiple uses. The water inside the young coconut, known as "daab" water, is refreshing and hydrating and is often consumed as a natural beverage. The white flesh of the mature coconut, known as "narkel gola," is rich and creamy and is used in various culinary dishes, including curries, desserts, and savory snacks. In addition to its culinary uses, coconuts are also used in Bangladesh for various non-food purposes. The fibrous husk is used to make ropes, mats, and other traditional handicrafts, while the coconut shells are used as containers, utensils, and as fuel for cooking fires. Coconuts are prized for their high nutritional value, being rich in healthy fats, vitamins, and minerals. They are considered an essential part of the diet and economy in Bangladesh, providing sustenance, livelihoods, and cultural significance to the people.',
     description_bn:
-      'নারিকেল, বাংলায় "নারকেল" বা "দাব" নামে পরিচিত, বাংলাদেশে চাষ করা একটি বহুমুখী ফল। এটি উপকূলীয় অঞ্চল এবং সুন্দরবন অঞ্চল সহ সারা দেশে বিভিন্ন অঞ্চলে জন্মে। নারকেল খেজুর উষ্ণ এবং আর্দ্র জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত সারা বছর কাটা হয়। নারিকেলের সফল ফলন নিশ্চিত করার জন্য সঠিক মাটি প্রস্তুতি, সেচ এবং কীটপতঙ্গ ব্যবস্থাপনা সহ ঐতিহ্যবাহী কৃষি পদ্ধতি ব্যবহার করা হয়। নারকেল পরিপক্ক হলে সাধারণত তাল গাছের উপর থেকে ফল সংগ্রহ করা শুরু হয়। নারকেল তাদের বহুবিধ ব্যবহারের জন্য অত্যন্ত মূল্যবান। কচি নারকেলের ভিতরের জল, যা "দাব" জল নামে পরিচিত, তা সতেজ এবং হাইড্রেটিং এবং প্রায়ই প্রাকৃতিক পানীয় হিসাবে খাওয়া হয়। পরিপক্ক নারকেলের সাদা মাংস, যা "নারকেল গোলা" নামে পরিচিত, এটি সমৃদ্ধ এবং ক্রিমি এবং তরকারি, মিষ্টান্ন এবং মুখরোচক স্ন্যাকস সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ব্যবহৃত হয়। এর রন্ধনসম্পর্কীয় ব্যবহার ছাড়াও, নারকেল বাংলাদেশে বিভিন্ন অখাদ্য কাজেও ব্যবহৃত হয়। আঁশযুক্ত ভুসি দড়ি, মাদুর এবং অন্যান্য ঐতিহ্যবাহী হস্তশিল্প তৈরিতে ব্যবহৃত হয়, যখন নারকেলের খোসা পাত্র, বাসন এবং রান্নার আগুনে জ্বালানী হিসাবে ব্যবহৃত হয়। স্বাস্থ্যকর চর্বি, ভিটামিন এবং খনিজ সমৃদ্ধ হওয়ায় নারকেল তাদের উচ্চ পুষ্টির মূল্যের জন্য মূল্যবান। এগুলি বাংলাদেশের খাদ্য ও অর্থনীতির একটি অপরিহার্য অংশ হিসাবে বিবেচিত হয়, যা জনগণের ভরণ-পোষণ, জীবিকা এবং সাংস্কৃতিক গুরুত্ব প্রদান করে।',
+      'নারিকেল, বাংলায় "নারকেল" বা "ডাব" নামে পরিচিত, বাংলাদেশে চাষ করা একটি বহুমুখী ফল। এটি উপকূলীয় অঞ্চল এবং সুন্দরবন অঞ্চল সহ সারা দেশে বিভিন্ন অঞ্চলে জন্মে। নারকেল খেজুর উষ্ণ এবং আর্দ্র জলবায়ুতে বৃদ্ধি পায় এবং সাধারণত সারা বছর কাটা হয়। নারিকেলের সফল ফলন নিশ্চিত করার জন্য সঠিক মাটি প্রস্তুতি, সেচ এবং কীটপতঙ্গ ব্যবস্থাপনা সহ ঐতিহ্যবাহী কৃষি পদ্ধতি ব্যবহার করা হয়। নারকেল পরিপক্ক হলে সাধারণত তাল গাছের উপর থেকে ফল সংগ্রহ করা শুরু হয়। নারকেল তাদের বহুবিধ ব্যবহারের জন্য অত্যন্ত মূল্যবান। কচি নারকেলের ভিতরের জল, যা "দাব" জল নামে পরিচিত, তা সতেজ এবং হাইড্রেটিং এবং প্রায়ই প্রাকৃতিক পানীয় হিসাবে খাওয়া হয়। পরিপক্ক নারকেলের সাদা মাংস, যা "নারকেল গোলা" নামে পরিচিত, এটি সমৃদ্ধ এবং ক্রিমি এবং তরকারি, মিষ্টান্ন এবং মুখরোচক স্ন্যাকস সহ বিভিন্ন রন্ধনসম্পর্কীয় খাবারে ব্যবহৃত হয়। এর রন্ধনসম্পর্কীয় ব্যবহার ছাড়াও, নারকেল বাংলাদেশে বিভিন্ন অখাদ্য কাজেও ব্যবহৃত হয়। আঁশযুক্ত ভুসি দড়ি, মাদুর এবং অন্যান্য ঐতিহ্যবাহী হস্তশিল্প তৈরিতে ব্যবহৃত হয়, যখন নারকেলের খোসা পাত্র, বাসন এবং রান্নার আগুনে জ্বালানী হিসাবে ব্যবহৃত হয়। স্বাস্থ্যকর চর্বি, ভিটামিন এবং খনিজ সমৃদ্ধ হওয়ায় নারকেল তাদের উচ্চ পুষ্টির মূল্যের জন্য মূল্যবান। এগুলি বাংলাদেশের খাদ্য ও অর্থনীতির একটি অপরিহার্য অংশ হিসাবে বিবেচিত হয়, যা জনগণের ভরণ-পোষণ, জীবিকা এবং সাংস্কৃতিক গুরুত্ব প্রদান করে।',
   },
 
   {
@@ -723,7 +723,7 @@ const cropsData = [
 
   {
     crop_id: 167,
-    crop_name_en_en: "Watermelon",
+    crop_name_en: "Watermelon",
     crop_name_bn: "তরমুজ",
     crop_image: "/src/images/watermelon.png",
     description_en:
@@ -734,17 +734,17 @@ const cropsData = [
 
   {
     crop_id: 168,
-    crop_name_en_en: "Betel leaf",
+    crop_name_en: "Betel leaf",
     crop_name_bn: "পান",
     crop_image: "/src/images/betel leaf.jpeg",
     description_en:
       'Betel leaf, known as "pan pata" or "paan pata" in Bengali, is a widely cultivated plant in Bangladesh. It is grown in various regions across the country, including Dhaka, Chittagong, and Sylhet. Betel leaf is typically grown in home gardens, as well as in commercial plantations.Traditional farming methods, including proper soil preparation, irrigation, and pest management, are employed to ensure a successful betel leaf crop. Betel leaf plants thrive in warm and humid climates and require well-drained soil with regular watering. Farmers often use organic fertilizers and natural pest control methods to maintain the health of the plants.Harvesting of betel leaves typically occurs when the leaves are young and tender, usually around 3 to 6 months after planting. The leaves are harvested by hand, with care taken to avoid damaging the plant. Once harvested, betel leaves are sorted and bundled for sale in local markets or to be used in making traditional betel leaf preparations.Betel leaves are commonly used in Bangladesh for making paan, a traditional chewable preparation that often includes betel nut, slaked lime (chuna), spices, and sometimes tobacco. Paan is widely consumed as a palate cleanser and digestive aid after meals, as well as for its stimulant and medicinal properties.Overall, betel leaf cultivation is an important aspect of agriculture in Bangladesh, providing income and livelihoods to farmers and contributing to the countrys cultural heritage. The betel leaf holds significant cultural and social value in Bangladeshi society and is an integral part of traditional customs and ceremonies.',
-    description_bn: "",
+    description_bn: "এটি  বাংলায় 'পান পাতা' নামে পরিচিত, বাংলাদেশে ব্যাপকভাবে চাষ করা একটি উদ্ভিদ। এটি ঢাকা, চট্টগ্রাম, সিলেটসহ সারাদেশে বিভিন্ন অঞ্চলে জন্মে। পান সাধারণত বাড়ির বাগানে, সেইসাথে বাণিজ্যিক আবাদে জন্মায়৷ একটি সফল পানের ফসল নিশ্চিত করার জন্য সঠিক মাটি তৈরি, সেচ এবং কীটপতঙ্গ ব্যবস্থাপনা সহ ঐতিহ্যবাহী কৃষি পদ্ধতি ব্যবহার করা হয়৷ পান পাতার গাছগুলি উষ্ণ এবং আর্দ্র জলবায়ুতে উন্নতি লাভ করে এবং নিয়মিত জল দিয়ে ভাল-নিষ্কাশিত মাটির প্রয়োজন হয়। চাষিরা প্রায়ই গাছের স্বাস্থ্য বজায় রাখার জন্য জৈব সার এবং প্রাকৃতিক কীটপতঙ্গ নিয়ন্ত্রণ পদ্ধতি ব্যবহার করে। পানের সংগ্রহ সাধারণত তখন ঘটে যখন পাতাগুলি তরুণ এবং কোমল হয়, সাধারণত রোপণের 3 থেকে 6 মাস পরে। গাছের ক্ষতি এড়াতে যত্ন সহকারে পাতাগুলি হাতে কাটা হয়। একবার ফসল কাটার পর, পান বাছাই করা হয় এবং স্থানীয় বাজারে বিক্রির জন্য বান্ডেল করা হয় বা ঐতিহ্যবাহী পান তৈরিতে ব্যবহার করা হয়। বাংলাদেশে পান তৈরিতে সাধারণত পান ব্যবহার করা হয়, একটি ঐতিহ্যবাহী চিবানো যায় যার মধ্যে প্রায়শই সুপারি, ঝাল চুন (চুনা) অন্তর্ভুক্ত থাকে। ), মশলা, এবং কখনও কখনও তামাক। পান ব্যাপকভাবে খাওয়া হয় তালু পরিষ্কারকারী এবং খাবারের পর পরিপাক সহায়ক হিসেবে, সেইসাথে এর উদ্দীপক ও ঔষধি গুণের জন্য। সামগ্রিকভাবে, পান চাষ বাংলাদেশের কৃষির একটি গুরুত্বপূর্ণ দিক, যা কৃষকদের আয় ও জীবিকা প্রদান করে এবং দেশের সংস্কৃতিতে অবদান রাখে। ঐতিহ্য বাংলাদেশী সমাজে পানের উল্লেখযোগ্য সাংস্কৃতিক ও সামাজিক মূল্য রয়েছে এবং এটি ঐতিহ্যবাহী রীতিনীতি ও অনুষ্ঠানের একটি অবিচ্ছেদ্য অংশ।",
   },
 
   {
     crop_id: 169,
-    crop_name_en_en: "Sugarcane",
+    crop_name_en: "Sugarcane",
     crop_name_bn: "আখ",
     crop_image: "/src/images/sugarcane.jpg",
     description_en:
@@ -755,7 +755,7 @@ const cropsData = [
 
   {
     crop_id: 170,
-    crop_name_en_en: "Betel nut",
+    crop_name_en: "Betel nut",
     crop_name_bn: "সুপারি",
     crop_image: "/src/images/betel nut.jpg",
     description_en:
@@ -766,7 +766,7 @@ const cropsData = [
 
   {
     crop_id: 171,
-    crop_name_en_en: "Tea",
+    crop_name_en: "Tea",
     crop_name_bn: " চা",
     crop_image: "/src/images/tea.webp",
     description_en:
@@ -777,7 +777,7 @@ const cropsData = [
 
   {
     crop_id: 172,
-    crop_name_en_en: "Taro",
+    crop_name_en: "Taro",
     crop_name_bn: "মুখিকোচু",
     crop_image: "/src/images/taro.png",
     description_en:
