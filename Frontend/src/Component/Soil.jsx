@@ -8,8 +8,8 @@ const SoilInfo = () => {
         <div key={soil.soil_id} className="soil-card">
           <img src={soil.soil_image} alt={soil.soil_name_en} className="soil-image" />
           <div className="soil-description">
-            <h2>{soil.soil_name_en}</h2>
-            <p>{soil.description_en}</p>
+                  <h2>{soil.soil_name_en} { soil.soil_name_bn}</h2>
+            <p>{soil.description_bn}</p>
           </div>
         </div>
       ))}
