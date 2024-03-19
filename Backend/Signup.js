@@ -24,12 +24,12 @@ con.connect(err => {
     console.log('Connected to MySQL database');
 });
 
-// Create users table if not exists
+// Create users table if not exists with unique constraint on email column
 const createTableQuery = `
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,  -- Unique constraint added here
     password VARCHAR(255) NOT NULL,
     location_id INT NOT NULL,
     FOREIGN KEY (location_id) REFERENCES Location(location_id)
@@ -48,14 +48,29 @@ con.query(createTableQuery, (err, result) => {
 app.post('/farms', (req, res) => {
     const { username, email, password, locationId } = req.body;
 
-    // Insert user data into users table along with the received locationId
-    con.query('INSERT INTO users (username, email, password, location_id) VALUES (?, ?, ?, ?)', [username, email, password, locationId], (err, result) => {
+    // Check if the email already exists in the database
+    con.query('SELECT COUNT(*) AS count FROM users WHERE email = ?', [email], (err, result) => {
         if (err) {
-            console.error('Error inserting user into database:', err);
+            console.error('Error checking for existing email:', err);
             res.status(500).json({ message: 'An error occurred while signing up. Please try again later.' });
         } else {
-            console.log('User inserted into database with ID:', result.insertId);
-            res.status(201).json({ message: 'User created successfully' });
+            const emailCount = result[0].count;
+            if (emailCount > 0) {
+                // If email already exists, send a message to the client
+                res.status(400).json({ message: 'Email already registered. Please use a different email.' });
+            } else {
+                // If email doesn't exist, proceed with user registration
+                // Insert user data into users table along with the received locationId
+                con.query('INSERT INTO users (username, email, password, location_id) VALUES (?, ?, ?, ?)', [username, email, password, locationId], (err, result) => {
+                    if (err) {
+                        console.error('Error inserting user into database:', err);
+                        res.status(500).json({ message: 'An error occurred while signing up. Please try again later.' });
+                    } else {
+                        console.log('User inserted into database with ID:', result.insertId);
+                        res.status(201).json({ message: 'Registration Successful! Now click on home icon.' });
+                    }
+                });
+            }
         }
     });
 });
