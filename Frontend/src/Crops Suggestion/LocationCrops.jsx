@@ -62,7 +62,7 @@ const LocationCrops = () => {
             <option value="">Select Location</option>
             {locationData.map(([id, name]) => (
               <option key={id} value={name}>
-                {name}
+                { name }
               </option>
             ))}
           </select>
