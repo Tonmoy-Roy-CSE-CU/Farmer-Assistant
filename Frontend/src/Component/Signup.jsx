@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import HomeIcon from '@mui/icons-material/Home';
+import {  useNavigate } from 'react-router-dom'; // Import useNavigate hook
+
 import axios from 'axios';
 import '../Style/Signup.css';
 import locationData from './LocationData'; // Import location data
@@ -9,39 +9,44 @@ const Signup = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [locationId, setLocationId] = useState(""); // Initialize locationId state
+  const [locationId, setLocationId] = useState("");
   const [signupStatus, setSignupStatus] = useState('');
+  const [emptyFieldsError, setEmptyFieldsError] = useState(false);
+  const navigate = useNavigate(); // Initialize useNavigate hook
 
   const handleSignup = async (e) => {
     e.preventDefault();
+
+    if (!username || !email || !password || !locationId) {
+      setEmptyFieldsError(true);
+      return;
+    }
 
     try {
       console.log('Request Payload:', {
         username,
         email,
         password,
-        locationId // Log locationId
+        locationId
       });
 
-      // Make a POST request to the backend server
       const response = await axios.post('http://localhost:3001/farms', {
         username,
         email,
         password,
-        locationId // Send locationId instead of location
+        locationId
       });
 
-      console.log(response.data); // Log the server response
+      console.log("respose:", response);
 
-      // Display confirmation or error message
-      if (response.data.message) {
+      if (response.status===201 && response.data.message==='Registration Successful!') {
         setSignupStatus(response.data.message);
-      } else {
-        setSignupStatus('ACCOUNT CREATED SUCCESSFULLY');
-      }
+        console.log("account crated Successfully.")
+        alert("Registration Successful.")
+        navigate('/');
+      } 
     } catch (error) {
       console.error('Error signing up:', error);
-      // Display error message to the user
       setSignupStatus('An error occurred while signing up. Please try with another email.');
     }
   };
@@ -49,13 +54,14 @@ const Signup = () => {
   const handleLocationChange = (e) => {
     const selectedLocationId = e.target.value;
     setLocationId(selectedLocationId);
-    console.log('Selected location ID:', selectedLocationId); // Log the selected location ID
+    console.log('Selected location ID:', selectedLocationId);
   };
 
   return (
     <div className="signup-container">
       <div className="signup-form-container">
         <form onSubmit={handleSignup} className="signup-form">
+          <h2 className="signup-title">Sign Up</h2>
           <div className="form-group">
             <label htmlFor="username" className="form-label">
               Username
@@ -101,7 +107,7 @@ const Signup = () => {
             </label>
             <select
               value={locationId}
-              onChange={handleLocationChange} // Update locationId state
+              onChange={handleLocationChange}
               className="form-input"
             >
               <option value="">Select Location</option>
@@ -113,13 +119,11 @@ const Signup = () => {
             </select>
           </div>
           <div className="form-group footSignhome">
-            <Link to="/" className="home-icon">
-              <HomeIcon />
-            </Link>
             <button type="submit" className="signup-button">
               Sign Up
             </button>
           </div>
+          {emptyFieldsError && <p className="error-message">Please fill in all fields</p>}
           {signupStatus && (
             <p className={signupStatus.includes('error') ? 'error-message' : 'confirmation-message'}>
               {signupStatus}
