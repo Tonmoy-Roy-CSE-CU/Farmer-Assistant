@@ -15,7 +15,7 @@
     
 }
 .logo{
-    padding-left: 100px;
+    padding-left: 10px;
 }
 .lst{
     color: rgb(191, 241, 8);
@@ -27,29 +27,7 @@
     text-decoration: underline; /* Add underline on hover if desired */
     color: chartreuse;
 }
-.SignupBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #142948;
-    color: #f9fafb;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 17px;
-    transition: background-color 0.3s ease-in-out;
-    
-    /* Set the height of the button */
-    width: 60px; /* Adjust the value based on your preference */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-}
 
-.SignupBtn:hover {
-    background-color: #db06cd;
-    
-}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -79,3 +57,33 @@
     background-color: #4caf50; /* Change the background color on hover */
   }
   
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #142948;
+  color: #f9fafb;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s ease-in-out;
+  
+  /* Set the height of the button */
+  width: 75px; /* Adjust the value based on your preference */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.Btn:hover {
+  background-color: #db06cd;
+  
+}

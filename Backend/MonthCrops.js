@@ -61,7 +61,34 @@ const queryDatabase = (query, params) => {
   });
 };
 
+const createTableQuery = `
+  CREATE TABLE IF NOT EXISTS messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    message TEXT
+  )
+`;
 
+db.query(createTableQuery, (err) => {
+  if (err) {
+    console.error('Error creating table:', err);
+  }
+});
+
+// Endpoint to handle form submissions
+app.post('/submit-form', (req, res) => {
+  const { name, email, message } = req.body;
+  const insertQuery = 'INSERT INTO messages (name, email, message) VALUES (?, ?, ?)';
+  db.query(insertQuery, [name, email, message], (err) => {
+    if (err) {
+      console.error('Error inserting data:', err);
+      res.status(500).send('Error submitting message');
+    } else {
+      res.send('Message submitted successfully');
+    }
+  });
+});
 
 // Start the server
 app.listen(port, () => {

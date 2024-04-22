@@ -93,4 +93,4 @@ const getUsersFromDatabase = (query) => {
 };
 
 // Run the function periodically (e.g., every hour)
-setInterval(sendCloudyWeatherEmails, 3600000);
+setInterval(sendCloudyWeatherEmails, 36000000);

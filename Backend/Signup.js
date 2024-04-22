@@ -26,14 +26,16 @@ con.connect(err => {
 
 // Create users table if not exists with unique constraint on email column
 const createTableQuery = `
-CREATE TABLE IF NOT EXISTS users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,  -- Unique constraint added here
-    password VARCHAR(255) NOT NULL,
-    location_id INT NOT NULL,
+CREATE TABLE IF NOT EXISTS Users (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(50) UNIQUE,
+    Email VARCHAR(100) UNIQUE,
+    Password VARCHAR(100),
+    location_id INT,
+    Role ENUM('user', 'admin') DEFAULT 'user',
     FOREIGN KEY (location_id) REFERENCES Location(location_id)
-)
+);
+
 `;
 
 con.query(createTableQuery, (err, result) => {
@@ -67,7 +69,7 @@ app.post('/farms', (req, res) => {
                         res.status(500).json({ message: 'An error occurred while signing up. Please try again later.' });
                     } else {
                         console.log('User inserted into database with ID:', result.insertId);
-                        res.status(201).json({ message: 'Registration Successful! Now click on home icon.' });
+                        res.status(201).json({ message: 'Registration Successful!' });
                     }
                 });
             }
