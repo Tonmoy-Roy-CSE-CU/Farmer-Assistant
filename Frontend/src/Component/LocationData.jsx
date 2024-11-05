@@ -1,14 +1,14 @@
 // LocationData.js
 
 const locationData = [
-  [254, "Bagerhat"],
+  [255, "Bagerhat"],
   [240, "Bandarban"],
   [234, "Barguna"],
   [235, "Barisal"],
+  [236, "Bhola"],
   [218, "Bogra"],
   [241, "Brahmanbaria"],
   [242, "Chandpur"],
-  [203, "Chapai Nawabganj"],
   [243, "Chittagong"],
   [256, "Chuadanga"],
   [244, "Comilla"],
@@ -46,6 +46,7 @@ const locationData = [
   [211, "Narayanganj"],
   [212, "Narsingdi"],
   [221, "Natore"],
+  [222, "Nawabganj"],
   [213, "Netrokona"],
   [230, "Nilphamari"],
   [249, "Noakhali"],
